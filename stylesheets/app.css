@@ -22,7 +22,9 @@ div.twelve.columns.centered>h1 {
 .top-bar {
 	display: none;
 }
-
+#aModal {
+	text-align: center;
+}
 
 /* -----------------------------------------
    About
