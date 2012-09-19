@@ -45,7 +45,6 @@
     });
   }
   
-  $(".top-bar").css("display", "none");
   
   $("#buttonForAModal").click(function() {
 	$(".top-bar").css("display", "block");

@@ -9,14 +9,6 @@
 */
 
 
-/* -----------------------------------------
-   Shared Styles
------------------------------------------ */
-body {
-	background: url('../images/layout/subtle_dots.png') repeat;
-	
-}
-
 
 /* -----------------------------------------
    Home
@@ -27,7 +19,9 @@ div.twelve.columns.centered {
 div.twelve.columns.centered>h1 {
 	font-family: 'Bowlby One SC', cursive;
 }
-
+.top-bar {
+	display: none;
+}
 
 
 /* -----------------------------------------
@@ -71,3 +65,14 @@ div.twelve.columns.centered>h1 {
 
 
 
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+body {
+	background: url('../images/layout/subtle_dots.png') repeat;
+	
+}
+.show {
+	display: block;
+}
