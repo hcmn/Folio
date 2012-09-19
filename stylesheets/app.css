@@ -34,7 +34,9 @@ div.twelve.columns.centered>h1 {
 
 
 /* -----------------------------------------
-   Page Name 2
+   About
 ----------------------------------------- */
-
+.show {
+	display: block;
+}
 
