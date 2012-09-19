@@ -4,7 +4,7 @@
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
-:: Page Name 1
+:: Home
 :: Page Name 2
 */
 
@@ -12,13 +12,24 @@
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
-
+body {
+	background: url('../images/layout/subtle_dots.png') repeat;
+	
+}
 
 
 /* -----------------------------------------
-   Page Name 1
+   Home
 ----------------------------------------- */
-
+.top-bar {
+	display: none;
+}
+div.twelve.columns.centered {
+	text-align: center;
+}
+div.twelve.columns.centered>h1 {
+	font-family: 'Bowlby One SC', cursive;
+}
 
 
 
