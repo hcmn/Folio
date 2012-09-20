@@ -30,12 +30,7 @@ div.twelve.columns.centered>h1 {
 /* -----------------------------------------
    About
 ----------------------------------------- */
-div {
-	text-align: center;
-}
-div.panel {
-	background-color: #C8EBFE !important;
-}
+
 
 /* -----------------------------------------
    Features
@@ -86,4 +81,10 @@ body {
 }
 .top-bar {
 	/* background-color: #D0D102 !important; */
+}
+div {
+	text-align:justify;
+}
+div.panel {
+	background-color: #C8EBFE !important;
 }
