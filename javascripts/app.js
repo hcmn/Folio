@@ -48,6 +48,7 @@
   
   $("#buttonForAModal").click(function() {
 	$(".top-bar").css("display", "block");
+	$("#thanks").css("display", "block");
   });
 
 })(jQuery, this);
