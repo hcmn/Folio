@@ -103,6 +103,12 @@ div {
 div.panel {
 	background-color: #C8EBFE !important;
 	margin: auto;
+
+}
+div.panel pre {
+	text-overflow: ellipsis;
+	direction: ltr;
+	overflow: hidden;	
 }
 
 /* -----------------------------------------
