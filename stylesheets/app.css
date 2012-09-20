@@ -40,7 +40,19 @@ div.twelve.columns.centered>h1 {
 /* -----------------------------------------
    Features - Front-End
 ----------------------------------------- */
-
+div#html5 div.five.columns div.panel a:first-child {
+	margin: 0 0 0 30px;
+}
+div#html5 div.five.columns div.panel a:nth-of-type(2) {
+	margin: 0 0 0 85px;
+}
+div#html5 div.five.columns div.panel,
+div#css div.five.columns div.panel  {
+	background: transparent !important;
+}
+div#css div.five.columns div.panel a:first-child {
+	margin: 0 0 0 30px;
+}
 
 /* -----------------------------------------
    Features - Back-End
@@ -87,6 +99,7 @@ div {
 }
 div.panel {
 	background-color: #C8EBFE !important;
+	margin: auto;
 }
 
 /* -----------------------------------------
