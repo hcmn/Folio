@@ -70,8 +70,8 @@ div#js div.five.columns img {
 	margin: 0 0 0 30px;
 }
 .box_round {
-	-webkit-border-radius: 12px;
-	border-radius: 12px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
