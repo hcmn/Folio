@@ -94,14 +94,19 @@
 			<div id="move-up">Click Here to Move Up the Menu by 10px</div>
 		</div>
 	</div>
-	
+	<br />
 	<div class="row cf">
 		<h4>Javascript</h4>
-		<div class="five columns">
-			<input id="test-input" type="text" placeholder="enter something" /><a href="#" id="test-entry" class="postfix button expand">Enter</a>
+		<div class="six columns">
+			<h6>Enter Information Here</h6>
+			<input id="test-input" type="text" placeholder="enter task" /><a href="#" id="test-entry" class="postfix button expand">Enter</a>
+			<br /><br /><br /><br />
+			<h6>Enter Task # to Delete Here</h6>
+			<input id="delete-task" type="text" placeholder="task # to delete" /><a href="#" id="delete-entry" class="alert postfix button expand">Delete</a>
 		</div>
-		<div class="seven columns">
-			<div id="test-output"></div>
+		<div class="six columns">
+			<h6>To-Do List</h6>
+			<div><ul id="test-output"></ul></div>
 		</div>
 
 	</div>
@@ -142,6 +147,7 @@
 	<script src="javascripts/jquery.js"></script>
 	<script src="javascripts/foundation.min.js"></script>
 	<script src="javascripts/script.js"></script>
+	<script src="javascripts/todo.js"></script>
 	
 	<!-- Initialize JS Plugins -->
 	<script src="javascripts/app.js"></script>
