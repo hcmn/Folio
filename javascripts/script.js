@@ -3,5 +3,6 @@
 		$('#buttonForAModal').click(function() {
 		  $('#aModal').reveal();
 		});
+				
 	});
 </script>

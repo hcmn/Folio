@@ -44,12 +44,41 @@
       }, 0);
     });
   }
-  
 
 	$("#buttonForAModal").click(function() {
 		$("#thanks").css("display", "block");
 	});
+	
+	$("#menu-slide-up").click(function() {
+		$(".top-bar").slideUp();
+	});
+	$("#menu-slide-down").click(function() {
+		$(".top-bar").slideDown();
+	});
+	
+	$("#menu-fadeout").click(function() {
+		$(".top-bar").fadeOut();
+	});
+	$("#menu-fadein").click(function() {
+		$(".top-bar").fadeIn();
+	});
+	
+	$("#reduce-opacity").click(function() {
+		$(".top-bar").animate( { opacity: "-=0.1" });
+	});
+	$("#increase-opacity").click(function() {
+		$(".top-bar").animate( { opacity: "+=0.1" });
+	});
+	
+	$("#move-down").click(function() {
+		$(".top-bar").css("position", "absolute");
+		$(".top-bar").animate( { "top": "+=10px" });
+	});
+	$("#move-up").click(function() {
+		$(".top-bar").css("position", "absolute");
+		$(".top-bar").animate( { "top": "-=10px" });
+	});
 
-
-
+	
+	
 })(jQuery, this);
