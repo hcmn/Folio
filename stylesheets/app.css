@@ -56,7 +56,8 @@ div#css div.five.columns div.panel  {
 div#css div.five.columns div.panel a:first-child {
 	margin: 0 0 0 30px;
 }
-div#rounded div.five.columns div.panel {
+div#rounded div.five.columns div.panel,
+div#gradient div.five.columns div.panel {
 	width: 350px;
 	height: 250px;
 }
@@ -68,7 +69,14 @@ div#rounded div.five.columns div.panel {
 	background-clip: padding-box;
 	
 }
-
+.box_gradient {	
+	background-color: #C8EBFE;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C8EBFE), to(#999999));
+	background-image: -webkit-linear-gradient(top, #C8EBFE, #999999);
+	background-image:    -moz-linear-gradient(top, #C8EBFE, #999999);
+	background-image:      -o-linear-gradient(top, #C8EBFE, #999999);
+	background-image:         linear-gradient(to bottom, #C8EBFE, #999999);
+}
 /* -----------------------------------------
    Features - Back-End
 ----------------------------------------- */
