@@ -57,9 +57,14 @@ div#css div.five.columns div.panel a:first-child {
 	margin: 0 0 0 30px;
 }
 div#rounded div.five.columns div.panel,
-div#gradient div.five.columns div.panel {
+div#gradient div.five.columns div.panel,
+div#transition div.five.columns div.panel {
 	width: 350px;
 	height: 250px;
+}
+div#transition div.five.columns div.panel.box_gradient.box_transition:hover {
+	width: 300px;
+	height: 200px;
 }
 .box_round {
 	-webkit-border-radius: 12px;
@@ -76,6 +81,12 @@ div#gradient div.five.columns div.panel {
 	background-image:    -moz-linear-gradient(top, #C8EBFE, #999999);
 	background-image:      -o-linear-gradient(top, #C8EBFE, #999999);
 	background-image:         linear-gradient(to bottom, #C8EBFE, #999999);
+}
+.box_transition {
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
 }
 /* -----------------------------------------
    Features - Back-End
