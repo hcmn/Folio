@@ -66,6 +66,9 @@ div#transition div.five.columns div.panel.box_gradient.box_transition:hover {
 	width: 300px;
 	height: 200px;
 }
+div#js div.five.columns img {
+	margin: 0 0 0 35px;
+}
 .box_round {
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
