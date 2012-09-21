@@ -56,6 +56,18 @@ div#css div.five.columns div.panel  {
 div#css div.five.columns div.panel a:first-child {
 	margin: 0 0 0 30px;
 }
+div#rounded div.panel {
+	width: 350px;
+	height: 250px;
+}
+.box_round {
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	
+}
 
 /* -----------------------------------------
    Features - Back-End
