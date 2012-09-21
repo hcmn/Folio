@@ -45,10 +45,18 @@
     });
   }
   
-  
-  $("#buttonForAModal").click(function() {
-	$(".top-bar").css("display", "block");
-	$("#thanks").css("display", "block");
-  });
+
+	$("#buttonForAModal").click(function() {
+		$(".top-bar").css("display", "block");
+		$("#thanks").css("display", "block");
+		var newVisit = false;
+	});
+	$("a#logo").click(function() {
+		$(".top-bar").css("display", "block");
+		$("#thanks").css("display", "block");
+		var newVisit = false;
+	});	
+
+
 
 })(jQuery, this);

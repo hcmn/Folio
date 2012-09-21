@@ -20,7 +20,7 @@ div.twelve.columns.centered>h1 {
 	font-family: 'Bowlby One SC', cursive;
 }
 .top-bar {
-	display: none;
+	display: block;
 }
 #aModal {
 	text-align: center;
