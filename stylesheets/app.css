@@ -56,7 +56,20 @@ div#html5 div.five.columns div.panel a:nth-of-type(2) {
 	margin: 0 0 0 85px;
 }
 div#html5 div.five.columns div.panel,
-div#css div.five.columns div.panel  {
+div#css div.five.columns div.panel,
+div#grid div.five.columns div.panel,
+div#boilerplate div.five.columns div.panel,
+div#affordance div.five.columns div.panel,
+div#js div.five.columns div.panel,
+div#typography div.five.columns div.panel,
+div#minify div.five.columns div.panel,
+div#backend div.five.columns div.panel,
+div#mysql div.five.columns div.panel,
+div#php div.five.columns div.panel,
+div#crud div.five.columns div.panel,
+div#frameworks div.five.columns div.panel,
+div#analytics div.five.columns div.panel,
+div#wordpress div.five.columns div.panel  {
 	background: transparent !important;
 }
 div#css div.five.columns div.panel a:first-child {
@@ -74,6 +87,9 @@ div#transition div.five.columns div.panel.box_gradient.box_transition:hover {
 }
 div#js div.five.columns img {
 	margin: 0 0 0 30px;
+}
+div#mysql div.five.columns img {
+	margin: auto;
 }
 .box_round {
 	-webkit-border-radius: 20px;
