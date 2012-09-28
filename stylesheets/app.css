@@ -33,7 +33,13 @@ div.twelve.columns.centered>h1 {
 /* -----------------------------------------
    About
 ----------------------------------------- */
-
+#about, #about div {
+	text-align: center;
+}
+#about #thankstext {
+	font-size: 80pt;
+	font-family: 'Arial Black', sans-serif;
+}
 
 /* -----------------------------------------
    Features
