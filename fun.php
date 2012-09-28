@@ -54,10 +54,6 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 		<ul class="right">
-			<li><a href="blog.html">Blog</a></li>
-			<li class="divider"></li>
-		</ul>
-		<ul class="right">
 			<li class="active"><a href="fun.html">Fun Stuff</a></li>
 			<li class="divider"></li>
 		</ul>
