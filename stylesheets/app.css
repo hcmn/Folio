@@ -17,7 +17,7 @@ div.twelve.columns.centered {
 	text-align: center;
 }
 div.twelve.columns.centered>h1 {
-	font-family: 'Bowlby One SC', cursive;
+	font-family: 'Bowlby One SC', 'Impact', 'Arial Black', sans-serif;
 }
 .top-bar {
 	display: block;
